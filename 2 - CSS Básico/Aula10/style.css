@@ -1,0 +1,37 @@
+body{ 
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif; /*Foi copiado do google fonts */
+    color: #222222;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 50%; 
+    margin: 30px; 
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1{
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;/*Isso muda o tamanho da fonte*/
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic; /*Muda a fonte do h2*/
+    color: #494949;
+    font-weight: 100; /*Muda a expessura da fonte*/
+    letter-spacing: -1px;/*espaçamento das letras*/
+}
+
+p{
+    line-height: 25px;
+}

@@ -1,0 +1,12 @@
+/*body{ Maneira 1
+    background: rgb(0, 0, 0)  RGB: tonalidade de vermelho, verde e azul que quer
+}                             RGBA: o a significa alpha que é a transparência
+*/
+
+body{ /*Maneira 2*/
+    background: #dfdfdf;/*Hexadecimal Ex: FF red FF green 00 blue*/
+}
+
+p{
+    color: #222222;
+}

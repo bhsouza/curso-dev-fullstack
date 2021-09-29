@@ -1,0 +1,13 @@
+body{ 
+    background: #dfdfdf;
+}
+
+p{
+    color: #222222;
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #ffffff; /*shorthand Utiliza 3 propriedades border widht, style e color*/
+    border-radius: 100% 50% 100% 50%; /*Funciona pra arredondar as bordas, casa queira 4 diferente: TL - TR - BR - BL*/
+}

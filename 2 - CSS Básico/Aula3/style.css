@@ -1,0 +1,12 @@
+body{ 
+    background-image: url(background.jpg); /*Utilizado pra escolher uma imagem para o background*/
+    background-repeat: no-repeat; /*Regra para a imagem não se repetir*/
+    /*background-position: 100% 50%; Para definir o lugar onde fica a iamgem*/
+    background-position: center center;
+    background-size: cover; /*Usado pra imagem cobrir a página toda*/
+    background-attachment: fixed; /*Essa função fixa o background*/
+}
+
+p{
+    color: #222222;
+}

@@ -1,0 +1,16 @@
+body{
+    background: red; /*background é pra adicionar cor de fundo em algo*/
+}
+
+h3{
+    color: green; /*Alterar cor de algum texto*/
+}
+
+/*Class utiliza .nomeclass como formato e pode ser usado em várias coisas*/
+.foto-principal{  /*Tudo q tiver essa class vai ter essas configurações na página*/
+    width: 500px;
+}
+/*Id utiliza #nomeid como formato e só pode ser usado por uma coisa, coo se fosse o RG do mesmo*/
+#titulo-principal{  /*O q tiver essa id vai ter essas configurações*/
+    color: yellow;
+}
