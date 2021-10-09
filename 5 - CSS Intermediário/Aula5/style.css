@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /*overflow: hidden; esconde dentro da caixa*/
+    /*overflow: scroll; tudo que estourar pra fora faz scroll*/
+    /*overflow-x: hidden; esconde o scroll do eixo x, vale o mesmo pro y*/
+    overflow: auto; /*ele ve automaticamente se precisa ou n do scroll nos eixos*/
+}

@@ -1,0 +1,16 @@
+/* a{
+    width: 150px;
+    height: 150px;
+    display: block; serve para selecionar o espaço de um bloco todo 
+    display: inline-block; Tipo o block porém retirando o espaço a mais e deixando livre
+} */
+
+ul{
+    background-color: gray;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+}

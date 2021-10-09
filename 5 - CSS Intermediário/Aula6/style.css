@@ -1,0 +1,51 @@
+/* visited e active são especificos para tags de ancora */
+/* hover pode ser aplicado pra tudo */
+a {
+    color: red;
+}
+
+a:visited{ /*Se ja visitou o link vai ficar amarelo*/
+    color: yellow;
+}
+
+a:active{ /*Quando apertar e segurar fica da cor selecionada*/
+    color: palevioletred;
+}
+
+a:hover{ /*Quando passar o mouse em cima muda para as configurações abaixo, sempre depois de visited e unvisited*/
+    color: green;
+    font-weight: bold;
+}
+
+a:hover + .caixa{
+    display: block;
+}
+
+.caixa{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.caixa:hover{
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+}
+
+ul li:first-child{ /*seleciona o primeiro filho do parametro selecionado e aplica novas regras selecionadas*/
+    color: purple;
+}
+
+ul li:last-child{ /*seleciona o ultimo filho do parametro selecionado e aplica novas regras selecionadas*/
+    color: orange;
+}
+
+.exemplo p:first-child{
+    color: green;
+}
+
+.exemplo2 p:nth-child(5){ /*Seleciona o filho que quer aplicar regras*/
+    color: indigo;
+}

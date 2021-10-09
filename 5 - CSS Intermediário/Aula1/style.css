@@ -1,0 +1,29 @@
+.exemplo1 p.red{ /* p.red vai adicionar essa regra a tudo que tiver a classe red porém somente no que for parágrafo*/
+    color: red;
+}
+
+.margin{
+    margin: 50px;
+}
+
+h1, h2, h3{ /*Mesma regra pra um ou mais seletores*/
+    color: blue;
+}
+
+.exemplo2 > p{ /*Colocando o > a regra só será aplicada aos filhos do da esquerda*/
+    color: blue;
+}
+
+.exemplo{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo3 + p{ /* O + procura um elemento que é irmão*/
+    color: red;
+}
+
+.exemplo4 ~ p{ /* O ~ serve para selecionar todos elementos irmãos depois da tag selecionada*/
+    color: yellowgreen;
+}

@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 2px 2px 20px red; /*mesmo funcionamento do box shadow porém com textos*/
+}
+p{
+    font-size: 30px;
+    color: yellowgreen;
+    text-align: justify; /*define o tipo de alinhamento do texto*/
+    font-weight: bold; /*define a grossura da fonte*/
+    font-style: italic; /* define o estilo da fonte*/
+    /* font-variant: small-caps; variação da fonte*/ 
+    text-transform: lowercase; /*define alguns formatos de letra*/
+    text-indent: 50px; /*Define um espaço no começo do paragrafo*/
+    word-spacing: 20px; /*define o espaçamento de palavras*/
+    line-height: 50px; /*define a distancia entre linhas*/
+}
+
+a{
+    text-decoration: line-through; /*define a decoração do texto*/
+    letter-spacing: 20px; /*define o espaçamento das letras*/
+}

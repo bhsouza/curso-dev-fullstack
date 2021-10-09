@@ -1,0 +1,12 @@
+ul{
+    background-color: gray;
+    padding: 10px;
+    /* display: none; oculta o elemento do navegador inclusive seu espaço*/
+    /*visibility: hidden; oculta a area porem mantem a area ocupada*/
+    opacity: 0.3; /*Transparencia*/
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+}

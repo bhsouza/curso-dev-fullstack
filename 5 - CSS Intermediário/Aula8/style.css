@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quadrado {
+    position: fixed; /*Fixa o elemento na tela, mesmo fazendo scroll ele vai continuar no mesmo lugar*/
+    /* top é Usado para falar a distância do topo d página*/
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 12px;
+}
+
+.circulo {
+    position: absolute; /* fica totalmente parado no lugar q for colocado*/
+    top: 100px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+p{
+    margin: 50px;
+    width: 300px;
+}
