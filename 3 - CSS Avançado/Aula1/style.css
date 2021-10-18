@@ -1,0 +1,22 @@
+/*Váriaveis facilitam caso seja necessário mudar algo com várias ocorrências no projeto*/
+:root{/* geralmente colocado nas primeiras linhas do css, criar definições*/
+    --color-primary: rgb(11, 0, 73);/*pra criar uma váriavel no css tem que usar -- */
+    --color-secondary: rgb(100, 84, 184);
+}
+
+h1{
+    color: var(--color-primary); /* var() coloca a variavel la do root dentro do parenteses para obter o efeito desejado*/
+}
+
+h2{
+    color: var(--color-secondary);
+}
+
+p{
+    color: var(--color-primary);
+}
+
+button{
+    background: var(--color-primary);
+    color: white;
+}
